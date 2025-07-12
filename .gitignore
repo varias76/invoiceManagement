@@ -1,0 +1,49 @@
+# Ignorar carpetas de Node.js
+/node_modules
+/dist
+.env
+
+# Ignorar carpetas de .NET
+/bin/
+/obj/
+
+# Ignorar archivos de base de datos SQLite
+*.db
+*.sqlite
+*.sqlite-journal
+
+# Ignorar archivos de Visual Studio (IDE)
+.vs/
+*.suo
+*.user
+*.log
+*.pdb
+*.opendb
+*.tlog
+*.ide
+*.cache
+
+# Ignorar archivos de Visual Studio Code
+.vscode/
+
+# Ignorar paquetes NuGet
+*.nupkg
+/packages/
+
+# Ignorar archivos de configuración específicos de la máquina
+appsettings.Development.json # Si tienes credenciales sensibles aquí
+
+# Ignorar archivos de prueba
+/TestResults/
+
+# Ignorar otros archivos temporales
+*.tmp
+*.bak
+*.scc
+*.vspscc
+*.vssscc
+Vss*.scc
+Vss*.scc
+_ReSharper.*/
+*.DotSettings
+*.DotSettings.user
